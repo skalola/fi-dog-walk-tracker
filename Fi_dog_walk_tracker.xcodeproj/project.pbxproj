@@ -3,17 +3,28 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4135F741232A0A8800EAFC91 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4135F740232A0A8800EAFC91 /* MapViewController.xib */; };
+		4135F743232A0ACA00EAFC91 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4135F742232A0ACA00EAFC91 /* MapViewController.swift */; };
+		4135F74B232AD9D300EAFC91 /* ArtworkMarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4135F74A232AD9D300EAFC91 /* ArtworkMarkerView.swift */; };
 		414BD9E42329495900785ED2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414BD9E32329495900785ED2 /* AppDelegate.swift */; };
-		414BD9E62329495900785ED2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414BD9E52329495900785ED2 /* ViewController.swift */; };
 		414BD9E92329495900785ED2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 414BD9E72329495900785ED2 /* Main.storyboard */; };
 		414BD9EB2329495A00785ED2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 414BD9EA2329495A00785ED2 /* Assets.xcassets */; };
 		414BD9EE2329495A00785ED2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 414BD9EC2329495A00785ED2 /* LaunchScreen.storyboard */; };
 		414BD9F92329495A00785ED2 /* Fi_dog_walk_trackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414BD9F82329495A00785ED2 /* Fi_dog_walk_trackerTests.swift */; };
 		414BDA042329495A00785ED2 /* Fi_dog_walk_trackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414BDA032329495A00785ED2 /* Fi_dog_walk_trackerUITests.swift */; };
+		4153A41B23294AF7007619FC /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4153A41A23294AF7007619FC /* Server.swift */; };
+		4153A41D23294B12007619FC /* Swift+Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4153A41C23294B12007619FC /* Swift+Database.swift */; };
+		4153A41F23294BBB007619FC /* Walks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4153A41E23294BBB007619FC /* Walks.swift */; };
+		4153A42723299D78007619FC /* WalksTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4153A42623299D78007619FC /* WalksTableViewCell.swift */; };
+		4153A42923299D85007619FC /* WalksTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4153A42823299D85007619FC /* WalksTableViewCell.xib */; };
+		4153A42F2329A6FC007619FC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4153A42E2329A6FC007619FC /* GoogleService-Info.plist */; };
+		4153A4322329ECEE007619FC /* WalksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4153A4312329ECEE007619FC /* WalksViewController.swift */; };
+		4153A4332329EF18007619FC /* WalksViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4153A42223294CBF007619FC /* WalksViewController.xib */; };
+		9EA5E70CF8FA52F47DAE56D7 /* Pods_Fi_dog_walk_tracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38166C5B0319D41BA3ADC542 /* Pods_Fi_dog_walk_tracker.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +45,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		38166C5B0319D41BA3ADC542 /* Pods_Fi_dog_walk_tracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fi_dog_walk_tracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4135F740232A0A8800EAFC91 /* MapViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
+		4135F742232A0ACA00EAFC91 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		4135F74A232AD9D300EAFC91 /* ArtworkMarkerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkMarkerView.swift; sourceTree = "<group>"; };
 		414BD9E02329495900785ED2 /* Fi_dog_walk_tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fi_dog_walk_tracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		414BD9E32329495900785ED2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		414BD9E52329495900785ED2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		414BD9E82329495900785ED2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		414BD9EA2329495A00785ED2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		414BD9ED2329495A00785ED2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +61,16 @@
 		414BD9FF2329495A00785ED2 /* Fi_dog_walk_trackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Fi_dog_walk_trackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		414BDA032329495A00785ED2 /* Fi_dog_walk_trackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fi_dog_walk_trackerUITests.swift; sourceTree = "<group>"; };
 		414BDA052329495A00785ED2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4153A41A23294AF7007619FC /* Server.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Server.swift; sourceTree = "<group>"; };
+		4153A41C23294B12007619FC /* Swift+Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift+Database.swift"; sourceTree = "<group>"; };
+		4153A41E23294BBB007619FC /* Walks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Walks.swift; sourceTree = "<group>"; };
+		4153A42223294CBF007619FC /* WalksViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WalksViewController.xib; sourceTree = "<group>"; };
+		4153A42623299D78007619FC /* WalksTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalksTableViewCell.swift; sourceTree = "<group>"; };
+		4153A42823299D85007619FC /* WalksTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WalksTableViewCell.xib; sourceTree = "<group>"; };
+		4153A42E2329A6FC007619FC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4153A4312329ECEE007619FC /* WalksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalksViewController.swift; sourceTree = "<group>"; };
+		B5E1EA8ADD8E3BF5318076A4 /* Pods-Fi_dog_walk_tracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fi_dog_walk_tracker.release.xcconfig"; path = "Target Support Files/Pods-Fi_dog_walk_tracker/Pods-Fi_dog_walk_tracker.release.xcconfig"; sourceTree = "<group>"; };
+		C44F411F1301BF4B8133B918 /* Pods-Fi_dog_walk_tracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fi_dog_walk_tracker.debug.xcconfig"; path = "Target Support Files/Pods-Fi_dog_walk_tracker/Pods-Fi_dog_walk_tracker.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EA5E70CF8FA52F47DAE56D7 /* Pods_Fi_dog_walk_tracker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +106,8 @@
 				414BD9F72329495A00785ED2 /* Fi_dog_walk_trackerTests */,
 				414BDA022329495A00785ED2 /* Fi_dog_walk_trackerUITests */,
 				414BD9E12329495900785ED2 /* Products */,
+				B0C538F992AAB3B7D095A47D /* Pods */,
+				54E658C768E0F51368AE190B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,11 +124,13 @@
 		414BD9E22329495900785ED2 /* Fi_dog_walk_tracker */ = {
 			isa = PBXGroup;
 			children = (
-				414BD9E32329495900785ED2 /* AppDelegate.swift */,
-				414BD9E52329495900785ED2 /* ViewController.swift */,
+				4153A41923294AA0007619FC /* Supporting */,
+				4153A41223294A42007619FC /* UI */,
+				4153A41023294A30007619FC /* Server */,
 				414BD9E72329495900785ED2 /* Main.storyboard */,
 				414BD9EA2329495A00785ED2 /* Assets.xcassets */,
 				414BD9EC2329495A00785ED2 /* LaunchScreen.storyboard */,
+				4153A42E2329A6FC007619FC /* GoogleService-Info.plist */,
 				414BD9EF2329495A00785ED2 /* Info.plist */,
 			);
 			path = Fi_dog_walk_tracker;
@@ -125,6 +154,79 @@
 			path = Fi_dog_walk_trackerUITests;
 			sourceTree = "<group>";
 		};
+		4153A41023294A30007619FC /* Server */ = {
+			isa = PBXGroup;
+			children = (
+				414BD9E32329495900785ED2 /* AppDelegate.swift */,
+			);
+			path = Server;
+			sourceTree = "<group>";
+		};
+		4153A41223294A42007619FC /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				4153A41323294A4A007619FC /* Models */,
+				4153A41523294A57007619FC /* Views */,
+				4153A41723294A77007619FC /* ViewControllers */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		4153A41323294A4A007619FC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4153A41E23294BBB007619FC /* Walks.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4153A41523294A57007619FC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4153A42223294CBF007619FC /* WalksViewController.xib */,
+				4153A42823299D85007619FC /* WalksTableViewCell.xib */,
+				4135F740232A0A8800EAFC91 /* MapViewController.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4153A41723294A77007619FC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4153A4312329ECEE007619FC /* WalksViewController.swift */,
+				4153A42623299D78007619FC /* WalksTableViewCell.swift */,
+				4135F742232A0ACA00EAFC91 /* MapViewController.swift */,
+				4135F74A232AD9D300EAFC91 /* ArtworkMarkerView.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4153A41923294AA0007619FC /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				4153A41A23294AF7007619FC /* Server.swift */,
+				4153A41C23294B12007619FC /* Swift+Database.swift */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		54E658C768E0F51368AE190B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38166C5B0319D41BA3ADC542 /* Pods_Fi_dog_walk_tracker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B0C538F992AAB3B7D095A47D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C44F411F1301BF4B8133B918 /* Pods-Fi_dog_walk_tracker.debug.xcconfig */,
+				B5E1EA8ADD8E3BF5318076A4 /* Pods-Fi_dog_walk_tracker.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +234,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 414BDA082329495A00785ED2 /* Build configuration list for PBXNativeTarget "Fi_dog_walk_tracker" */;
 			buildPhases = (
+				A2C3257168CAED9E031C0201 /* [CP] Check Pods Manifest.lock */,
 				414BD9DC2329495900785ED2 /* Sources */,
 				414BD9DD2329495900785ED2 /* Frameworks */,
 				414BD9DE2329495900785ED2 /* Resources */,
+				FBF8527080BF966EECC6949D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -229,9 +333,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4153A42F2329A6FC007619FC /* GoogleService-Info.plist in Resources */,
 				414BD9EE2329495A00785ED2 /* LaunchScreen.storyboard in Resources */,
+				4153A42923299D85007619FC /* WalksTableViewCell.xib in Resources */,
 				414BD9EB2329495A00785ED2 /* Assets.xcassets in Resources */,
+				4135F741232A0A8800EAFC91 /* MapViewController.xib in Resources */,
 				414BD9E92329495900785ED2 /* Main.storyboard in Resources */,
+				4153A4332329EF18007619FC /* WalksViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +359,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A2C3257168CAED9E031C0201 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fi_dog_walk_tracker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBF8527080BF966EECC6949D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fi_dog_walk_tracker/Pods-Fi_dog_walk_tracker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fi_dog_walk_tracker/Pods-Fi_dog_walk_tracker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fi_dog_walk_tracker/Pods-Fi_dog_walk_tracker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		414BD9DC2329495900785ED2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				414BD9E62329495900785ED2 /* ViewController.swift in Sources */,
+				4153A41F23294BBB007619FC /* Walks.swift in Sources */,
+				4135F74B232AD9D300EAFC91 /* ArtworkMarkerView.swift in Sources */,
+				4153A41D23294B12007619FC /* Swift+Database.swift in Sources */,
+				4153A42723299D78007619FC /* WalksTableViewCell.swift in Sources */,
+				4153A41B23294AF7007619FC /* Server.swift in Sources */,
 				414BD9E42329495900785ED2 /* AppDelegate.swift in Sources */,
+				4153A4322329ECEE007619FC /* WalksViewController.swift in Sources */,
+				4135F743232A0ACA00EAFC91 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +586,7 @@
 		};
 		414BDA092329495A00785ED2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C44F411F1301BF4B8133B918 /* Pods-Fi_dog_walk_tracker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +605,7 @@
 		};
 		414BDA0A2329495A00785ED2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5E1EA8ADD8E3BF5318076A4 /* Pods-Fi_dog_walk_tracker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

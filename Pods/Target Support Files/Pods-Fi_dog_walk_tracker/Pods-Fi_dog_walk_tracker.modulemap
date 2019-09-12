@@ -1,0 +1,6 @@
+framework module Pods_Fi_dog_walk_tracker {
+  umbrella header "Pods-Fi_dog_walk_tracker-umbrella.h"
+
+  export *
+  module * { export * }
+}
